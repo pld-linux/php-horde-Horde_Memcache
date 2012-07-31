@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Memcache API
 Name:		php-horde-Horde_Memcache
-Version:	1.0.5
+Version:	1.1.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	e67748d321d8869d632800013f09164c
+# Source0-md5:	159173ea84f281728cda8990c350625c
 URL:		https://github.com/horde/horde/tree/master/framework/Memcache/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
