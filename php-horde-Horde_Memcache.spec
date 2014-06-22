@@ -4,7 +4,7 @@
 Summary:	%{pearname} - Horde Memcache API
 Name:		php-horde-Horde_Memcache
 Version:	1.1.1
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -19,7 +19,7 @@ Requires:	php(hash)
 Requires:	php-channel(pear.horde.org)
 Requires:	php-horde-Horde_Exception < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
-Requires:	php-pecl-memcache
+Requires:	php(memcache)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
