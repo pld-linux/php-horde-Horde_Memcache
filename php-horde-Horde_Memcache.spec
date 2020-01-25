@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Memcache
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Memcache API
 Name:		php-horde-Horde_Memcache
 Version:	1.1.1
